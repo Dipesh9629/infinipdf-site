@@ -1,0 +1,16 @@
+INFini PDF Netlify Deploy Notes
+
+1. Upload this full static-site folder to Netlify.
+2. After connecting your custom domain, replace every `https://your-domain.com` value in:
+   - robots.txt
+   - sitemap.xml
+3. In Google Search Console, submit:
+   https://your-domain.com/sitemap.xml
+4. Test these pages after deploy:
+   - /
+   - /about
+   - /contact
+   - /privacy-policy
+   - /terms
+   - /disclaimer
+5. Test the contact form once on the live domain and confirm that emails arrive in Gmail.

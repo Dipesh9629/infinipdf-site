@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organize PDF Online | Infini PDF</title>
+  <meta name="description" content="Organize PDF pages online with Infini PDF. Reorder pages into a new PDF using a custom page sequence.">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7425646715800863" crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZ10805VGH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RZ10805VGH');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><div class="container"><div class="nav-shell"><a class="brand" href="index.html"><div class="brand-badge">IP</div><div><p class="brand-title">Infini PDF</p><p class="brand-subtitle">Smart document tools</p></div></a><nav class="nav-links"><a href="index.html#tools">Tools</a><a href="index.html#how-it-works">How it works</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav><div class="nav-actions"><a class="btn btn-outline" href="delete-pages.html">Delete Pages</a><a class="btn btn-primary" href="#tool-studio">Try Organize PDF</a></div></div></div></header>
+  <main class="page-hero">
+    <div class="container">
+      <div class="hero-card page-hero-card">
+        <div class="tool-page-shell">
+          <div><span class="eyebrow">Organize PDF Online</span><h1>Reorder your PDF pages into the exact sequence you need</h1><p class="lead">Use a custom page order like 3,1,2 or reverse to create a newly organized PDF without editing the original file manually.</p></div>
+          <article class="panel" style="padding:28px;"><h2 style="margin-top:0;">Why use Organize PDF</h2><div style="display:grid;gap:14px;"><div class="panel"><strong>Fix page sequence</strong><p>Useful when scanned or merged files are in the wrong order.</p></div><div class="panel"><strong>Create cleaner sets</strong><p>Make a new reordered copy without modifying the source file itself.</p></div></div></article>
+        </div>
+      </div>
+      <section class="section" id="tool-studio">
+        <div class="section-card" style="padding:24px;">
+          <div class="tool-studio" data-tool-studio data-default-tool="organize">
+            <div>
+              <span class="eyebrow">Organize Workflow</span>
+              <h2 style="margin:16px 0 0;font-size:42px;">Upload one PDF and rebuild the page order quickly</h2>
+              <p class="lead" style="max-width:620px;">Enter a page sequence like 3,1,2,4 or type reverse to create a reordered version of the document.</p>
+              <div class="tool-selector-grid">
+                <button class="tool-option active" data-tool-id="organize"><strong>Organize PDF</strong><p>Reorder pages into a new PDF using a custom sequence.</p></button>
+                <button class="tool-option" data-tool-id="delete-pages"><strong>Delete Pages</strong><p>Remove unwanted pages from one PDF and save the cleaned file.</p></button>
+                <button class="tool-option" data-tool-id="extract-pages"><strong>Extract Pages</strong><p>Copy selected pages into a new PDF file.</p></button>
+                <button class="tool-option" data-tool-id="number-pages"><strong>Number Pages</strong><p>Add automatic page numbers across every page of a PDF.</p></button>
+              </div>
+            </div>
+            <div class="panel studio-card">
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;"><div><p style="margin:0;color:#a5f3fc;font-size:12px;letter-spacing:0.2em;text-transform:uppercase;">Current Tool</p><h3 data-current-tool style="margin:10px 0 0;font-size:32px;">Organize PDF</h3></div><span class="badge-dark" data-file-count>0 files</span></div>
+              <p data-current-hint style="margin:14px 0 0;color:#cbd5e1;line-height:1.8;">Reorder pages into a new PDF using a custom page order like 3,1,2 or reverse.</p>
+              <div class="form-block">
+                <label>Choose file</label>
+                <input class="file-input" data-tool-input type="file" accept=".pdf,application/pdf">
+                <div class="field-split hidden" style="margin-top:18px;"><label>Pages to delete</label><input class="input" data-split-range type="text" value="1-2" placeholder="Example: 1-3,5"></div>
+                <div class="field-organize" style="margin-top:18px;"><label>Page order</label><input class="input" data-organize-order type="text" value="all" placeholder="Example: 3,1,2 or reverse"></div>
+                <div class="field-number hidden" style="margin-top:18px;"><label>Starting page number</label><input class="input" data-number-start type="text" value="1" placeholder="1"></div>
+              </div>
+              <div class="file-list" data-file-list></div>
+              <div class="error-box hidden" data-error></div>
+              <div class="status-box hidden" data-status></div>
+              <div class="btn-row"><button class="btn btn-primary" data-run-tool type="button">Run Organize PDF</button><button class="btn btn-dark" data-clear-files type="button">Clear Files</button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section"><div class="section-card"><span class="eyebrow">About Organize PDF</span><h2 style="margin:16px 0 18px;font-size:38px;">Why page organization matters before sending a final PDF</h2><p class="lead">An organize PDF tool is helpful when the pages in a document are technically all present, but not arranged in the right order. This happens often with scanned packets, merged reports, project appendices, and files assembled from multiple contributors. Reordering pages manually in desktop software can be slow, especially for quick jobs where you only need a clean final sequence. A browser-based organize tool saves time by letting you define the order directly and download a newly arranged PDF.</p><p class="lead">Infini PDF uses a simple sequence field for this. You can enter a custom order like 3,1,2,4 to move pages around, or reverse the whole document when needed. That makes the tool practical for teachers, students, office users, and freelancers who regularly handle document packs that arrive in the wrong order. It is also useful after combining PDFs, because a merged file may still need a small sequence cleanup before being sent out.</p><p class="lead">Organize PDF works especially well alongside Delete Pages and Number Pages. First remove anything unnecessary, then fix the order, and finally add numbering if the document needs a polished final format. That sequence can turn a rough PDF into something much more professional with only a few quick browser steps.</p></div></section>
+    </div>
+  </main>
+  <footer class="footer"><div class="container footer-card section-card"><div><h3 style="margin-top:0;">Infini PDF</h3><p>Focused PDF utilities with fast actions, clean downloads, and browser-first workflows.</p></div><div><h4>Explore</h4><p><a href="organize-pdf.html">Organize PDF</a></p><p><a href="delete-pages.html">Delete Pages</a></p><p><a href="number-pages.html">Number Pages</a></p></div><div><h4>Legal & Trust</h4><p><a href="privacy-policy.html">Privacy Policy</a></p><p><a href="terms.html">Terms & Conditions</a></p><p><a href="contact.html">Contact</a></p></div></div><p class="copyright">&copy; <span data-current-year></span> Infini PDF. All rights reserved.</p></footer>
+  <div class="cookie-banner" data-cookie-banner hidden><div class="cookie-inner"><div><p class="eyebrow" style="background:rgba(255,255,255,0.06);color:#a5f3fc;">Cookie Notice</p><p style="margin:10px 0 0;color:#cbd5e1;line-height:1.8;">Infini PDF uses cookies and similar technologies to improve performance, remember preferences, and support analytics or advertising features such as Google AdSense.</p></div><div class="btn-row" style="margin-top:0;"><button class="btn btn-dark" data-cookie-choice="declined" type="button">Decline</button><button class="btn btn-primary" data-cookie-choice="accepted" type="button">Accept cookies</button></div></div></div>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
